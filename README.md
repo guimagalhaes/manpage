@@ -1,12 +1,9 @@
-# dmidecode
-A demonstration on how to parse and decode SMBIOS tables
+# Online Manual Page
+This simple script will help you to find the 'man page' looking the desired manual  on all possible pages.
+It is also possible to define he target page index.
 
-It uses the /dev/mem 'method' of reading the SMBIOS tables available at special memory address.
-
-## Compile
-
-`gcc dmidecode.c`
 
 ## Running
 
-Run as root user since special permission is required to read /dev/mem.
+`manpage strcmp`
+`manpage --min 3 strcmp`
