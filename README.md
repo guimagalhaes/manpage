@@ -6,4 +6,5 @@ It is also possible to define he target page index.
 ## Running
 
 `manpage.sh strcmp`
+
 `manpage.sh --min 3 strcmp`
